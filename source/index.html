@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Джино домены</title>
+    <link rel="stylesheet" href="css/style.min.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">Подтверждение аккаунта</h1>
+      <p class="intro">
+        Для подтверждения вашего аккаунта вам нужно заполнить все поля,
+        подтвердить почтовый ящик и телефон, а также загрузить сканы
+        ваших документов
+      </p>
+      <div class="upload-section photo">
+        <div class="state-img">
+          <img src="img/upload.svg" alt="Upload">
+        </div>
+        <div class="uploading">
+          <input class="uploader photo-chooser visually-hidden" id="photo" type="file">
+          <label class="upload-link" for="photo">Загрузить скан страницы с фотографией</label>
+          <p class="info">Размер файла не более 5Мб</p>
+        </div>
+        <div class="state"></div>
+      </div>
+
+      <div class="upload-section registration">
+        <div class="state-img">
+          <img src="img/upload.svg" alt="Upload">
+        </div>
+        <div class="uploading">
+          <input class="uploader registration-chooser visually-hidden" id="registration" type="file">
+          <label class="upload-link" for="registration">Страница с пропиской</label>
+          <p class="info">Размер файла не более 5Мб</p>
+        </div>
+        <div class="state"></div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

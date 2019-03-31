@@ -1,0 +1,70 @@
+body {
+  background-color: #f7f7f7;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1092px;
+  min-width: 819px;
+  margin: 0 auto;
+
+  color: #9c9c9c;
+}
+
+.title {
+  max-width: 540px;
+  min-width: 405px;
+  margin: 0 auto;
+  margin-top: 20px;
+
+  color: #363636;
+}
+
+.intro {
+  max-width: 540px;
+  min-width: 405px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.upload-section {
+  display: flex;
+  flex-wrap: nowrap;
+  max-width: 540px;
+  min-width: 405px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.upload-link {
+  padding: 0;
+
+  text-decoration: underline;
+  color: #363636;
+  font-size: 20px;
+
+  cursor: pointer;
+}
+
+.info {
+  padding: 0;
+  margin-top: 5px;
+}
+
+.uploading {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+}
+
+.state {
+  margin-left: auto;
+}
